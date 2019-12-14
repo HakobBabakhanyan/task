@@ -8,6 +8,6 @@
 3) Copy ".env.example" to ".env"
 4) Generate application key with Artisan.
     ```
-    php artisan key:generate --ansi
+    php artisan key:generate
     ```
 5) Run "npm install" (optional).

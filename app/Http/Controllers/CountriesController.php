@@ -71,7 +71,7 @@ class CountriesController extends Controller
                 },
             ]
         ]);
-        $id = $country->update($id, $request->all('name'));
+        $country->update($id, $request->all('name'));
         return redirect()->route('countries.edit', ['id'=>$id])->with('status', 'edited');
     }
 
